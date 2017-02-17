@@ -1,0 +1,46 @@
+.infoMenu {
+    .back-color(@col-3);
+    .posTop; //dimensions.less
+     .height(@pixel * 18);
+        }
+
+                
+#infoBtn li {
+    .position();
+    .top(@pixel * 3);
+     .left();
+    .text-align();
+    .width(@pixel * 5);
+    .height(@pixel * 2);
+    a{
+        .colore(@color:@col-6);
+        &:hover {
+     .back-color(transparent);   
+       };
+         }; 
+    @{font-family}: @font-1;
+    .font-size();
+	}
+
+
+ 
+ #infoView {
+     .top();
+     .height(@pixel * 15);
+     .width(@pixel * 24);
+     @{back}: url("@{images}image_1.jpg");
+     .imageTrans; //other.less
+ }
+        
+ //templates/information/**.html
+   .information {
+            .position();
+             .top(@pixel * 2);
+             .left(@pixel * 3);
+            .font-size(@pixel - @size-1);
+            a {
+                .colore(@color:@col-6); 
+            }; 
+    }
+                       
+        

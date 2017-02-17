@@ -1,0 +1,25 @@
+<!--uses "home.less"/"main.less" -->
+<div class="views">    
+<my-carousel></my-carousel>
+<!--welcome div - uses "welcome.less"-->
+<div class="jumbotron" id="text">
+<h1>WELCOME TO THE WORLD OF DOOM METAL</h1>
+</div>
+
+
+<!--info div -->
+<div class="container-fluid" id="intro" ng-controller="homePageCtrl"> 
+        <div class="row">
+        <div class="col-sm-4"  ng-repeat="intro in intros" id="infoColumn">
+            <span class="glyphicon glyphicon-cd"></span>
+            <h2 class="head"><b>{{intro.heading}}</b></h2>
+            <p class="paragraph"><i><b>{{intro.paragraph}}</b></i></p>
+            <a ng-href= "{{intro.link}}"><button class="button"><i><b>{{intro.buttonName}}</b></i></button></a>
+        </div>
+        
+          </div>
+   </div>
+</div>
+<footer ng-include="'sources/footer/footer.tmpl.html'"></footer>
+
+

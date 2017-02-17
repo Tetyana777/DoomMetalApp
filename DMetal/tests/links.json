@@ -1,0 +1,23 @@
+{"learns": [
+        {"title":"Encyclopaedia metallum", "link":"http://www.metal-archives.com/"},
+         {"title":"Death Metal Underground", "link":"http://www.deathmetal.org/tag/dark-ambient"},
+         {"title":"Of Art And Metal", "link":"http://thequietus.com/articles/00876-of-art-and-metal-the-best-of-2008"},
+         {"title":"Doom Metal Albums", "link":"http://www.metalstorm.net/bands/albums_top.php?album_style=Doom"},
+          {"title":"List of Doom Metal Bands", "link":"https://en.wikipedia.org/wiki/List_of_doom_metal_bands"},
+          {"title":"Doom Metal Forum", "link":"http://www.doom-metal.com/"},
+          {"title":"Metal Injection", "link":"http://www.metalinjection.net/lists/7-doom-bands-you-shouldnt-ignore"}
+                ],
+   
+   "listens": [
+           {"title":"Doom Ambient listen for free", "link":"http://beta.last.fm/tag/doom%20ambient"},
+           {"title":"Dark World Music Portal", "link":"http://dark-world.ru/"},
+            {"title":"Radcap Radio", "link":" http://radcap.ru/ddm.html"}          
+   ],
+   
+   "purchases": [
+       {"title":"Napalm Records", "link":"https://www.shop.napalmrecords.com"},
+        {"title":"Nuclear Blast", "link":"http://www.nuclearblast.com"},
+        {"title":"Discogs", "link":"http://www.discogs.com"}
+   ]
+}
+

@@ -1,0 +1,52 @@
+//home.html
+img {
+    .sepia(100%);
+    }
+
+#text{
+       .back-color(@col-3);
+       .height(@pixel * 10);
+       .position();
+       .top(@pixel * 2);
+  }
+  
+       
+#intro {
+       @{back}: url("@{images}image_1.jpg");
+       .imageTrans; //other.less
+       .height(@pixel * 10);
+          }  
+
+
+#infoColumn {
+   .text-align();
+   .head, .glyphicon-cd {
+      .font-size(); 
+      .colore(@col-6);
+        };
+   .head, .paragraph, .button {
+      .position(); 
+   };
+   .paragraph, .button {
+      .font-size(@pixel - @size-1); 
+   };
+   .glyphicon-cd {
+       .display();
+      .top();
+           };
+     .head {
+        .top(@pixel + @size-1);
+          };
+     .paragraph {
+        .top(@pixel * 3);      
+          };
+     .button {
+        .top(@pixel * 4);
+         .box-shadow(@shadow-1);//other.less
+         .colore(@col-6);
+          @{float}: left;
+          } ;
+}
+
+ 
+

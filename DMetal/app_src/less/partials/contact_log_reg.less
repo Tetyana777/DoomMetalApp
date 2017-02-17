@@ -1,0 +1,54 @@
+//contact.html/login.html/register.html
+#contact, #logIn, #register {
+ .back-color(@col-3);
+  .height(@pixel * 15);
+  .position(@pos-2);
+  .top(@pixel * 3);
+  .left(@pixel * 2);
+     span {
+         .glyph(@color:@col-6);
+          };
+     label {
+        .colore(@color:@col-6); 
+           };
+         }
+
+           
+#logIn p {
+      .colore(@color:@col-6);
+}
+   
+#form, #loginPart, #registerForm {
+    .display();
+    &:extend(#logIn p);
+   }
+   
+.form-control {
+       .back-color(#ffcccc);
+       .width(@full / 2);
+       
+   }
+ 
+     
+ .backgroundImage {
+       .position(fixed);
+       .top(@pixel-1);
+       .left(@pixel-1);
+        .width(@full);
+       .height(@full);
+       z-@{index}:-1;
+       
+   }
+   
+        
+//<h2> for contact/log/register/information.html
+.left {
+    		.font-fam(@color:@col-6);
+		.padding();
+	        .margin-top(@pixel - @size-1);
+		.back-color(@col-3);
+		@{border}: none;
+               
+
+}
+

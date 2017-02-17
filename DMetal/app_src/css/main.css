@@ -1,0 +1,373 @@
+img {
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
+}
+#text {
+  background-color: #2E0F1F;
+  height: 500px;
+  position: relative;
+  top: 100px;
+}
+#intro {
+  background: url("../assets/img/image_1.jpg");
+  filter: sepia(20%);
+  -webkit-filter: sepia(20%);
+  text-shadow: 1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059, 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66, 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040, 10px 10px 0px #800040, 15px 15px 25px rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  height: 500px;
+}
+#intro:hover {
+  text-shadow: -1px 1px 0px #fff5e5, -2px 2px 0px #ffebcc, -3px 3px 0px #39004d, -4px 4px 0px #ffd699, -5px 5px 0px #600080, -6px 6px 0px #ffc266, -7px 7px 0px #600080, -8px 8px 0px #39004d, -9px 9px 0px #600080, -10px 10px 0px #600080, -15px 15px 25px rgba(0, 0, 0, 0.9);
+}
+#infoColumn {
+  text-align: center;
+}
+#infoColumn .head,
+#infoColumn .glyphicon-cd {
+  font-size: 30px;
+  color: #990033;
+}
+#infoColumn .head,
+#infoColumn .paragraph,
+#infoColumn .button {
+  position: relative;
+}
+#infoColumn .paragraph,
+#infoColumn .button {
+  font-size: 20px;
+}
+#infoColumn .glyphicon-cd {
+  display: block;
+  top: 50px;
+}
+#infoColumn .head {
+  top: 80px;
+}
+#infoColumn .paragraph {
+  top: 150px;
+}
+#infoColumn .button {
+  top: 200px;
+  box-shadow: 1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059, 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66, 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040, 10px 10px 0px #800040, 15px 15px 25px rgba(0, 0, 0, 0.9);
+  color: #990033;
+  float: left;
+}
+.posTop {
+  position: relative;
+  top: 50px;
+}
+ol li .glyphicon {
+  margin-bottom: #2E0F1F;
+  font-size: 15px;
+  color: white;
+}
+ul li {
+  list-style: none;
+}
+#heading {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  right: 200px;
+  font-family: 'LinotypeZapfino One', arial;
+  font-size: 50px;
+  color: #B3B3B3;
+  color: #B79A00;
+}
+#search {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+#search span,
+#search li {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #990033;
+}
+#myCarousel,
+#slideBands {
+  width: 950px;
+}
+#slideBands {
+  height: 550px;
+  background-color: transparent;
+}
+.slideBack {
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  left: 250px;
+}
+.slideBack a,
+.slideBack a:visited {
+  color: inherit;
+  outline: none;
+}
+.slideBack a:hover,
+.slideBack a:visited:hover {
+  background-color: transparent;
+}
+.navbar,
+#login {
+  height: 50px;
+}
+#nav a,
+#login {
+  color: #990033;
+}
+#user {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #990033;
+}
+#login {
+  text-align: center;
+}
+.dropdown-menu,
+.dropdown-menu li a:link,
+a:hover {
+  background-color: #2E0F1F;
+}
+#footer {
+  font-family: 'LinotypeZapfino One', arial;
+  font-size: 40px;
+  color: #B3B3B3;
+  background-color: #2E0F1F;
+}
+#footer .glyphicon {
+  margin-bottom: #990033;
+  font-size: 15px;
+  color: white;
+}
+#footer button {
+  font-family: 'LinotypeZapfino One', arial;
+  font-size: 20px;
+  color: #B3B3B3;
+  width: 150px;
+  color: #990033;
+}
+#formFooter {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.contactUs {
+  position: relative;
+  top: 50px;
+  color: #990033;
+  text-align: center;
+}
+#myContact {
+  text-align: justify;
+  background-color: #2E0F1F;
+  color: #990033;
+  left: 10px;
+}
+.glyphicon {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: white;
+}
+#contact,
+#logIn,
+#register {
+  background-color: #2E0F1F;
+  height: 750px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+#contact span,
+#logIn span,
+#register span {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #990033;
+}
+#contact label,
+#logIn label,
+#register label {
+  color: #990033;
+}
+#logIn p,
+#form,
+#loginPart,
+#registerForm {
+  color: #990033;
+}
+#form,
+#loginPart,
+#registerForm {
+  display: block;
+}
+.form-control {
+  background-color: #ffcccc;
+  width: 50%;
+}
+.backgroundImage {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.left {
+  font-family: 'LinotypeZapfino One', arial;
+  font-size: 50px;
+  color: #990033;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #2E0F1F;
+  border: none;
+}
+.infoMenu {
+  background-color: #2E0F1F;
+  position: relative;
+  top: 50px;
+  height: 900px;
+}
+#infoBtn li {
+  position: relative;
+  top: 150px;
+  left: 50px;
+  font-size: 50px;
+  color: #990033;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #2E0F1F;
+  border: none;
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  font-family: 'LinotypeZapfino One', arial;
+  font-size: 30px;
+}
+#infoBtn li a {
+  color: #990033;
+}
+#infoBtn li a:hover {
+  background-color: transparent;
+}
+#infoView {
+  top: 50px;
+  height: 750px;
+  width: 1200px;
+  background: url("../assets/img/image_1.jpg");
+  filter: sepia(20%);
+  -webkit-filter: sepia(20%);
+  text-shadow: 1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059, 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66, 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040, 10px 10px 0px #800040, 15px 15px 25px rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+#infoView:hover {
+  text-shadow: -1px 1px 0px #fff5e5, -2px 2px 0px #ffebcc, -3px 3px 0px #39004d, -4px 4px 0px #ffd699, -5px 5px 0px #600080, -6px 6px 0px #ffc266, -7px 7px 0px #600080, -8px 8px 0px #39004d, -9px 9px 0px #600080, -10px 10px 0px #600080, -15px 15px 25px rgba(0, 0, 0, 0.9);
+}
+.information {
+  position: relative;
+  top: 100px;
+  left: 150px;
+  font-size: 20px;
+}
+.information a {
+  color: #990033;
+}
+.carousel-control.left,
+.carousel-control.right {
+  background: none !important;
+}
+.carousel-control.left span,
+.carousel-control.right span {
+  color: #B79A00;
+}
+.carousel-indicators li {
+  background-color: #704214;
+}
+.carousel-indicators .active {
+  background-color: #B79A00;
+}
+.shadowTrans {
+  text-shadow: 1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059, 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66, 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040, 10px 10px 0px #800040, 15px 15px 25px rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.shadowTrans:hover {
+  text-shadow: -1px 1px 0px #fff5e5, -2px 2px 0px #ffebcc, -3px 3px 0px #39004d, -4px 4px 0px #ffd699, -5px 5px 0px #600080, -6px 6px 0px #ffc266, -7px 7px 0px #600080, -8px 8px 0px #39004d, -9px 9px 0px #600080, -10px 10px 0px #600080, -15px 15px 25px rgba(0, 0, 0, 0.9);
+}
+.imageTrans {
+  filter: sepia(20%);
+  -webkit-filter: sepia(20%);
+  text-shadow: 1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059, 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66, 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040, 10px 10px 0px #800040, 15px 15px 25px rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.imageTrans:hover {
+  text-shadow: -1px 1px 0px #fff5e5, -2px 2px 0px #ffebcc, -3px 3px 0px #39004d, -4px 4px 0px #ffd699, -5px 5px 0px #600080, -6px 6px 0px #ffc266, -7px 7px 0px #600080, -8px 8px 0px #39004d, -9px 9px 0px #600080, -10px 10px 0px #600080, -15px 15px 25px rgba(0, 0, 0, 0.9);
+}
+input,
+button {
+  background-color: #ffcccc;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+h3,
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  left: 0px;
+  text-shadow: 1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059, 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66, 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040, 10px 10px 0px #800040, 15px 15px 25px rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+h3:hover {
+  text-shadow: -1px 1px 0px #fff5e5, -2px 2px 0px #ffebcc, -3px 3px 0px #39004d, -4px 4px 0px #ffd699, -5px 5px 0px #600080, -6px 6px 0px #ffc266, -7px 7px 0px #600080, -8px 8px 0px #39004d, -9px 9px 0px #600080, -10px 10px 0px #600080, -15px 15px 25px rgba(0, 0, 0, 0.9);
+}
+h4 {
+  font-family: 'LinotypeZapfino One', arial;
+  font-size: 25px;
+  color: #B3B3B3;
+}
+/* use .less for the following general style settings:
+ "partials/dimensions.less" - position (top/right/left/bottom), index, float, outline, value in pixels/percentage, align, 
+    padding, margin, display, height, width, ul li/ol li
+ "partials/colors_fonts.less" - colors/background-colors/fonts, line, border
+ "partials/other.less" - image (background), text-shadow, glyphicon, input, button, headings (1-4), transition
+ */
+body {
+  height: 100%;
+  background-color: #2E0F1F;
+}
+#view,
+.views {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+/*# sourceMappingURL=main.css.map */

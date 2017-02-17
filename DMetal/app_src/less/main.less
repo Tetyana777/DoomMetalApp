@@ -1,0 +1,40 @@
+@import "partials/home.less";
+@import "partials/colors_fonts.less";
+@import "partials/dimensions.less";
+@import "partials/bands.less";
+@import "partials/header_footer.less";
+@import "partials/contact_log_reg.less";
+@import "partials/information.less";
+@import "partials/carousel.less";
+@import "partials/other.less";
+
+
+ /* use .less for the following general style settings:
+ "partials/dimensions.less" - position (top/right/left/bottom), index, float, outline, value in pixels/percentage, align, 
+    padding, margin, display, height, width, ul li/ol li
+ "partials/colors_fonts.less" - colors/background-colors/fonts, line, border
+ "partials/other.less" - image (background), text-shadow, glyphicon, input, button, headings (1-4), transition
+ */
+ 
+
+//index.html 
+body {
+ .height(@full);
+.back-color(@col-3);
+}
+
+
+//ui-view + templates html div containers (home.html, information.html, bands.html)
+#view, .views {
+    .height(@full);
+    .width(@full);
+    @margin: 0px;
+    .padding(0px)    
+}
+
+
+
+
+
+ 
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>THE WORLD OF DOOM</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet/less" href="less/main.less" type="text/css" media="screen" /> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
+    <link href="http://allfont.net/allfont.css?fonts=linotypezapfino-one" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <script src="sources/bands/controllers.js"></script>
+  <script src="sources/home/controllers.js"></script>
+  <script src="sources/information/controllers.js"></script>
+  <script src="sources/login/login/controllers.js"></script>
+  <script src="sources/login/register/controllers.js"></script>
+  <script src="sources/shared_scripts/controllers/backImageCtrl.js"></script>
+  <script src="sources/shared_scripts/controllers/btnCtrl.js"></script>
+  <script src="sources/shared_scripts/controllers/slideCtrl.js"></script>
+  <script src="sources/shared_scripts/directives/backImageDir.js"></script>
+  <script src="sources/shared_scripts/directives/btnDir.js"></script>
+  <script src="sources/shared_scripts/directives/carouselDir.js"></script>
+  <script src="sources/shared_scripts/directives/checkBoxDir.js"></script>
+  <script src="sources/shared_scripts/services/submitText.js"></script>
+ <!--<img src="img/image_2.jpg" alt="nature" style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>-->
+</head>
+<body  ng-app="app" ng-cloak>
+    <!--use "main.less" -->
+  <header ng-include="'sources/navigation/navbar.tmpl.html'"></header>
+    
+     <!--use "main.less" -->
+    <div class="container-fluid" id="view" ui-view>
+    </div> 
+  
+   
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!--uses "header_footer.less"-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="nav">
+              <ul class="nav navbar-nav navbar-right">
+              <li><a ui-sref="home">HOME</a></li>
+              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" ui-sref="information">INFORMATION
+                <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+               <li><a ui-sref="information.learn">GET TO KNOW</a></li>
+               <li><a ui-sref="information.listen">LISTEN</a></li>
+               <li><a ui-sref="information.purchase">FIND AND PURCHASE</a></li>
+               </ul>
+                </a> </li>
+              <li><a ui-sref="bands">BANDS</a></li>
+              <li><a ui-sref="contact">CONTACT US</a></li>
+               <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" ui-sref="login">LOGIN
+               <span class="caret"></span></a>  
+                <ul class="dropdown-menu" id="login">
+                <p> You are not logged in! </p>
+                <li><a ui-sref="login.login">LOGIN NOW</a></li>
+                <li><a ui-sref="login.register">REGISTER</a></li>
+                </ul>
+                </li>                      
+            </ul>
+          </div>
+          </div>
+          </nav>

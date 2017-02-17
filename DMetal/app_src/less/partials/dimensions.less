@@ -1,0 +1,101 @@
+//position
+@pos-1: relative;
+@pos-2: absolute;
+
+.position(@position:@pos-1) {
+    position:@position;    
+}
+
+//position:relative+top:50px
+.posTop {
+.position();
+    .top();
+}
+
+//index
+@index:index;
+
+//float
+@float: float;
+
+//outline
+@outline: outline;
+
+//value in pixels
+@pixel: 50px; //default
+@pixel-1: 0px;
+
+//default value in percents
+@full: 100%;
+
+//top
+.top(@top:@pixel){ //default value
+    top:@top;
+}
+
+//left
+.left(@left:@pixel){ //default value
+    left:@left;
+}
+
+//right
+.right(@right:@pixel){ //default value
+    right:@right;
+}
+
+//bottom
+.bottom(@bottom:@pixel){ //default value
+    bottom:@bottom;
+}
+
+//height
+.height(@height:@pixel) {
+    height: @height;
+}
+
+//width
+.width(@width:@pixel) {
+    width: @width;
+}
+
+//align
+@align: align;
+@align-1: center;
+@align-2: justify;
+
+.text-align(@text-align:@align-1){
+    text-align: @text-align;
+}
+
+
+//padding
+.padding(@padding:10px) {
+    padding: @padding;
+}
+
+
+//margin
+@margin: margin;
+//@margin: 10px;
+.margin-top(@margin-top:@pixel){
+    margin-top: @margin-top;
+}
+
+//display
+.display(){
+            display: block;
+ }
+
+//ul li, ol li   
+ol li {
+       .glyphicon {
+                .glyph(@col-3);
+                    } 
+   }
+
+ul li {
+    list-style: none; 
+}
+
+
+

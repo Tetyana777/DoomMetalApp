@@ -1,0 +1,25 @@
+#home {
+  width: 100%;
+}
+#welcome {
+  height: 400px;
+  width: 100%;
+}
+#bands {
+  position: relative;
+  top: 50px;
+  width: 100%;
+}
+/*#homeMenu{
+    position: absolute;
+     height: 700px;
+        }*/
+#infoBtn {
+  position: relative;
+  top: 100px;
+  left: 20px;
+  border: none;
+  text-align: center;
+  width: 200px;
+}
+/*# sourceMappingURL=home.css.map */

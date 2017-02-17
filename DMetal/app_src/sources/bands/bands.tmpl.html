@@ -1,0 +1,56 @@
+<!-- uses "bands.less" -->
+<div class="views">
+    <my-carousel><div class="container-fluid">
+     <p  id="heading"><b>Started in 1970-s, being (in a way) regionally-based(Finnish, Norwegian, Swedish, American (USA), Australian, South American,
+                    Russian(CIS)) and stylistically-divided (traditional, epic, stoner, ambient, growling, sludge, funeral, drone, death, black),
+                    this music has always evoked sense of despair,dread and impending doom ...</b></p></div>
+    </my-carousel>
+
+     <div class="infoMenu" style="position: relative; top: 50px;"> <!see "information.less"-->
+<div class="row">
+    <!-- Seach section -->
+    <div class="col-sm-5" id="search">
+        <div class="container" ng-controller="searchCtrl as genres"> 
+       <h4 style="color:#990033;">DOOM METAL GENRES</h4>
+        <ul>
+            <li ng-repeat="genre in genres.genres"><span class="glyphicon glyphicon-music"></span> {{genre.name}}</li>
+         </ul>  
+         </div>
+          <div class="container" ng-controller="searchCtrl as locations">
+        <h4 style="color:#990033;">DOOM METAL GEOGRAPHY</h4>
+        <ul>
+           <li ng-repeat="location in locations.locations"> <span class="glyphicon glyphicon-road"></span> {{location.name}}</li>
+          </ul>   
+            </div>
+            </div>
+   
+    <!-- bands section -->
+    <div class="col-sm-7">
+       
+  <h2 class="left" style="text-align:center;"><b>OUR HIGHLIGHTS</b> </h2> <!--"contact_log_reg.less" -->
+  
+  <div id="myCarousel"> 
+        <div  id="slideBands">
+            <uib-carousel interval="myInterval" active="activeSlide">
+                <uib-slide ng-repeat="slide in filteredSlides" index="$index">
+                    <img ng-src="{{slide.image}}" alt="DOOM METAL" style="width: 950px; height:550px;">
+           <h3 class="slideBack"> <a ng-href= "{{slide.website}}" target="_new">{{ slide.title }}
+             <br/>
+            {{slide.origin}}
+            <br/>
+            {{slide.name}}</a></h3>
+                    </uib-slide>
+            </uib-carousel>
+        </div>
+    </div>
+  
+  
+  <!-- bands carousel -->
+   
+ 
+     </div>
+</div>
+    </div>
+</div>
+<footer ng-include="'sources/footer/footer.tmpl.html'"></footer>
+

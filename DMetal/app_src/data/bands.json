@@ -1,0 +1,12 @@
+{    "genres": [
+      {"name": "epic doom"},
+      {"name": "funeral doom"},
+      {"name": "black doom"},
+      {"name": "doom jazz"}
+               ],
+ "locations": [
+      {"name":"Asia"},
+      {"name":"Australia"},
+      {"name":"Europe"},
+      {"name":"North America"},
+      {"name":"South America"}]}

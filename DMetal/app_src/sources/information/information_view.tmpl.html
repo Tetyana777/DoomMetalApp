@@ -1,0 +1,29 @@
+<!--uses "information.less"/"contact_log_reg.less"-->
+<div class="views">
+<my-carousel></my-carousel>
+<div class="infoMenu">
+  <div class="row"> 
+ <div class="col-sm-3">
+    <div class="container" id="infoBtn">
+        <ul>
+            <li  ng-repeat="inform in informs"><a ui-sref="{{inform.state}}">{{inform.title}}</a></li>
+               </ul>
+       
+          </div>
+   </div>
+ 
+<div class="col-sm-9">
+<div ui-view  id="infoView"></div>
+
+</div>
+    
+</div>
+</div>
+</div>
+
+<footer ng-include="'sources/footer/footer.tmpl.html'"></footer>
+
+
+ 
+
+ 

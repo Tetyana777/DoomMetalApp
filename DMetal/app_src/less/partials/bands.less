@@ -1,0 +1,43 @@
+//carousel
+#heading {
+    .position(@pos-2);
+   .top(@pixel * 3);
+    .left(@pixel * 4);
+    .right(@pixel * 4);
+    .font-fam();
+    .colore(#B79A00);
+    }
+//search section
+#search {
+    .position();
+    .left(@pixel * 2);
+     .top();
+    span, li {
+        .glyph(@color:@col-6);
+    };
+ }
+//bands section(carousel)
+#myCarousel {
+      .width(@pixel * 19);
+      }
+
+#slideBands {
+    .height(@pixel * 11);
+    &:extend(#myCarousel); 
+     .back-color(transparent);   
+       }
+
+.slideBack {
+    .position(@pos-2);
+    .text-align();
+    .top(@pixel * 3);
+     a, a:visited {
+        @{color}: inherit;
+        @{outline}:none;
+     &:hover {
+     .back-color(transparent);   
+    };
+     };
+    .left(@pixel * 5);
+    
+}

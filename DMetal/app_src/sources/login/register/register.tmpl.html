@@ -1,0 +1,88 @@
+<!--uses "contact_log_reg.less"/"body.less"-->
+
+<div class="container" id="register">       
+<h2 class="left"> REGISTER </h2>
+<br/>
+<div class="container" id="registerForm">
+    <p><span class="glyphicon glyphicon-user"></span><i> You can register here to get access to your personal "Doom Metal" page</i></p>
+<form name="registerForm" novalidate class="form-horizontal"> 
+    <div class="form-group">
+     <label class="control-label col-sm-2">Name:</label>
+     <div class="col-sm-10">
+      <input type="text" class="form-control" ng-model="registerForm.username" required>
+    <span ng-show="usernameRequired">{{usernameRequired}}</span>
+    </div>
+    </div>
+     <div class="form-group">
+  <label class="control-label col-sm-2">Street:</label>
+  <div class="col-sm-10">
+  <input type="text" class="form-control"  id="street">
+  </div>
+     </div>
+      <div class="form-group">
+     <label class="control-label col-sm-2"> Postal Code / City:</label>
+      <div class="col-sm-10">
+    <input type="text" class="form-control">
+      </div>
+    </div>
+      <div class="form-group">
+     <label class="control-label col-sm-2">Country:</label>
+      <div class="col-sm-10">
+    <input type="text" class="form-control">
+      </div>
+    </div>
+     <div class="form-group">
+     <label class="control-label col-sm-2">Phone number:</label>
+      <div class="col-sm-10">
+    <input type="number" class="form-control">
+      </div>
+    </div>
+     <div class="form-group">
+      <label class="control-label col-sm-2">Email Address:</label>
+      <div class="col-sm-10">
+      <input type="email" class="form-control" ng-model="registerForm.email" required>
+      <span ng-show="emailRequired">{{emailRequired}}</span> 
+         </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2">Password:</label>
+      <div class="col-sm-10">
+      <input type="password" class="form-control" ng-model="registerForm.password" required>
+       <span ng-show="passwordRequired">{{passwordRequired}}</span> 
+      </div>
+    </div>
+    <div class="form-group">
+  <label class="control-label col-sm-2">Confirm password:</label>
+   <div class="col-sm-10">
+  <input type="password" class="form-control" ng-model="registerForm.password2" required>
+  <span ng-show="password2">{{password2}}</span>
+  <span ng-show="registerForm.password != registerForm.password2">Passwords do not match</span>
+   </div>
+   </div>
+     <div class="form-group">
+  <label class="control-label col-sm-2">How did you learn about us?</label>
+   <div class="col-sm-10" ng-controller="optionsCtrl">
+  <select class="form-control">
+   <option value="" disabled selected>Please, select...</option>
+    <option ng-repeat="option in options">{{option.option}}</option>
+     </select>
+    </div>
+    </div>
+       <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+            <check-box text='I want to receive the newsletter'></check-box>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+      <my-button action="registerData()" title="SUBMIT"></my-button>
+      </div>
+    </div>
+     
+</form>
+ </div>
+   </div>
+
+  <div ng-controller="backImageCtrl"><back-image image="login"  class="backgroundImage"></back-image></div>     

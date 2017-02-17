@@ -1,0 +1,99 @@
+//images
+@images: "../assets/img/";
+
+.sepia(@value){
+    filter: sepia(@value);
+    -webkit-filter: sepia(@value);
+}
+
+@back: background;
+
+//text-shadow and transitions
+@shadow-1:1px 1px 0px #e5ffe5, 2px 2px 0px #ccffcc, 3px 3px 0px #b30059,
+ 4px 4px 0px #99ff99, 5px 5px 0px #800040, 6px 6px 0px #66ff66,
+ 7px 7px 0px #800040, 8px 8px 0px #b30059, 9px 9px 0px #800040,
+ 10px 10px 0px #800040, 15px 15px 25px rgba(0,0,0,.9);
+ 
+ @shadow-2:-1px 1px 0px #fff5e5,-2px 2px 0px #ffebcc,-3px 3px 0px #39004d,
+ -4px 4px 0px #ffd699,-5px 5px 0px #600080,-6px 6px 0px #ffc266,-7px 7px 0px #600080,
+ -8px 8px 0px #39004d,-9px 9px 0px #600080,-10px 10px 0px #600080,-15px 15px 25px rgba(0,0,0,.9);
+ 
+  .text-shadow(@text-shadow) {
+      text-shadow: @text-shadow;
+         }
+         
+ .transition (@time: .5s, @ease: ease-in-out) {
+    	-webkit-transition: @time @ease;
+	-moz-transition: @time @ease;
+	-o-transition: @time @ease;
+	-ms-transition: @time @ease;
+	transition: @time @ease;
+}  
+        
+ .shadowTrans { 
+  .text-shadow(@text-shadow:@shadow-1);
+ .transition();
+ &:hover {
+    .text-shadow(@text-shadow:@shadow-2);
+  };
+ }
+ //box-shadow
+ .box-shadow(@box-shadow){
+     box-shadow: @box-shadow;
+ }
+ 
+ //background image filter+text-shadow/transition default
+ .imageTrans {
+     .sepia(20%);
+     .shadowTrans;
+ }
+ 
+ //glyphicons
+.glyph(@margin-bottom: 20px; @font-size: 15px; @color: white) {
+   margin-bottom: @margin-bottom;
+   font-size: @font-size;
+   color: @color;
+   }
+   
+//input, buttons
+
+input, button {
+.back-color(#ffcccc);
+}
+
+
+//headings
+
+ h1 {
+      &:extend(h3);
+      .font-size(@pixel + 20px);
+      
+  }
+
+ h2 {
+	@font-family: @font-2;
+	.font-size(@size-1 - 6px);
+	@{font}-style: normal;
+	@{font}-variant: normal;
+	@{font}-weight: 500;
+	line-height: 26.4px;
+ }
+
+h3 {
+ @margin:100px auto;
+ .text-align();
+ .font-size(@size-1);
+ .colore();
+ .position();
+ .left(@pixel - 50);
+  .shadowTrans;
+  }
+  
+ 
+h4 {
+	.font-fam(@font-size: 25px);
+}
+
+
+
+  
